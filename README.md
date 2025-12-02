@@ -5,17 +5,21 @@ google-adk：1.19.0
 
 ## 手順
 
-book配下で以下のように仮想環境を作成する
+education_agent配下で以下のように仮想環境を作成する(別のやり方でも良い)
 
 python -m venv 仮想環境名
 
 Windowsならば
 
-.\education\Scripts\activate
+.\仮想環境名\Scripts\activate
 
 で仮想環境に入れる
 
 仮想環境に入ったあと
+
+pip install google-adk==1.19.0
+
+でパッケージをインストールし、
 
 adk web --no-reload
 
