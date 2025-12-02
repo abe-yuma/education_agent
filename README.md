@@ -27,6 +27,8 @@ adk web --no-reload
 
 .envファイルにてyour_api_key,your_project_id(3箇所),your_location,your_datastore_id(2箇所)を入力する必要あり。
 
+VerexAIを叩き、geminiとRAGを使用、結構なお金がかかるので実行時は注意
+
 
 ## 出力の例
 
